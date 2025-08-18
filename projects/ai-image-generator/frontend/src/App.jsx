@@ -6,11 +6,16 @@ function App() {
   const [prompt, setPrompt] = useState("");
   const [image, setImage] = useState(null);
 
+  const API_BASE = import.meta.env.VITE_API_BASE || "http://127.0.0.1:8000";
+
   const generateImage = async () => {
-    const res = await axios.post("http://localhost:8000/generate", {
-      text: prompt,
-    });
-    setImage(`data:image/png;base64,${res.data.image}`);
+    try {
+      const res = await axios.post(`${API_BASE}/generate`, { text: prompt });
+      setImage(`data:image/png;base64,${res.data.image}`);
+    } catch (err) {
+      console.error(err);
+      alert(err?.response?.data?.detail || "Generation failed");
+    }
   };
 
   return (
