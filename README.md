@@ -2,7 +2,9 @@
 
 A simple **AI-powered image generator** built with:
 - **Backend:** FastAPI (Python) + Hugging Face Inference API  
-- **Frontend:** React (Vite) + Axios  
+- **Frontend:** React (Vite) + Axios
+- **Deployment:** Azure App Service / Azure Static Web Apps  
+
 
 Users can type a text prompt and instantly generate an AI image using **Stable Diffusion XL Turbo**.
 
@@ -14,6 +16,8 @@ Users can type a text prompt and instantly generate an AI image using **Stable D
 - Frontend React app with prompt input + image preview  
 - CORS-enabled so frontend and backend work locally  
 - Easy to extend with extra options (steps, width, height, etc.)
+- Deployable on **Azure** (App Service for backend + Static Web App for frontend)
+
 
 ---
 
