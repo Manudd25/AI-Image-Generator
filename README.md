@@ -22,30 +22,11 @@ Users can type a text prompt and instantly generate an AI image using **Stable D
 ---
 
   
-## 🤝 Collaboration
+## Pictures
 
-We split tasks between two developers:
+<img width="1516" height="1702" alt="Screenshot 2025-08-20 at 11 15 29" src="https://github.com/user-attachments/assets/ec4b76fa-bf63-4c3c-8022-825f5eac096d" />
+<img width="3712" height="1740" alt="Screenshot 2025-08-20 at 11 12 46" src="https://github.com/user-attachments/assets/3cd6b271-e59e-4fe6-9dbe-ebec8b601612" />
+<img width="1470" height="956" alt="Screenshot 2025-08-20 at 10 53 49" src="https://github.com/user-attachments/assets/93c41e53-a86c-4890-8ec6-693017add2a6" />
+<img width="1470" height="956" alt="Screenshot 2025-08-20 at 10 53 36" src="https://github.com/user-attachments/assets/ef3e5f37-5c5d-4b6f-8d28-7889ad03985d" />
 
-Person A (Backend)
 
-Setup FastAPI server
-
-Connect to Hugging Face API
-
-Handle prompt → image request
-
-Return Base64-encoded images
-
-Configure CORS
-
-Person B (Frontend)
-
-Build React interface
-
-Create prompt input + button
-
-Display generated image
-
-Connect with backend using Axios
-
-Add UI improvements (loading state, extra controls)
