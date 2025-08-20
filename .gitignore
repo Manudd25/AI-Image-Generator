@@ -12,3 +12,15 @@ venv/
 **/venv/
 node_modules/
 **/node_modules/
+
+# secrets
+.env
+*.env
+# deps
+venv/
+**/venv/
+node_modules/
+**/node_modules/
+# builds
+**/dist/
+
