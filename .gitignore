@@ -2,3 +2,13 @@
 projects/ai-image-generator/backend/.env
 projects/ai-image-generator/frontend/.env
 *.env
+
+# secrets
+.env
+*.env
+
+# deps
+venv/
+**/venv/
+node_modules/
+**/node_modules/
